@@ -1,0 +1,21 @@
+DEPENDENCIES
+  myrvm
+    path: .
+    metadata: true
+
+GRAPH
+  apt (6.1.0)
+  chef_gem (0.1.0)
+  homebrew (4.1.0)
+  java (1.50.0)
+    apt (>= 0.0.0)
+    homebrew (>= 0.0.0)
+    windows (>= 0.0.0)
+  myrvm (0.1.0)
+    rvm (= 0.9.4)
+  ohai (5.1.0)
+  rvm (0.9.4)
+    chef_gem (>= 0.0.0)
+    java (>= 0.0.0)
+  windows (3.0.5)
+    ohai (>= 4.0.0)
